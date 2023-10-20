@@ -1,0 +1,15 @@
+
+puts "Digite algo e pressione enter!"
+exemplo = gets.chomp
+puts exemplo
+
+puts "Digite o valor!"
+preco = gets.to_i
+taxa = 2
+puts "Você vai pagar #{preco + taxa}"
+
+puts "Nome:"
+  nome = gets.chomp
+  puts "Idade:"
+  idade = gets.chomp
+  puts "Seu nome é #{nome} e você tem #{idade} anos"
